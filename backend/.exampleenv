@@ -1,0 +1,21 @@
+# Example .env file for backend
+# Copy this file to .env and fill in your actual credentials
+
+# Azure Computer Vision credentials (if needed)
+AZURE_VISION_ENDPOINT=https://your-vision-endpoint.cognitiveservices.azure.com/
+AZURE_VISION_KEY=your_vision_key_here
+
+# Azure Speech credentials
+AZURE_SPEECH_KEY=your_speech_key_here
+AZURE_SPEECH_REGION=your_speech_region_here
+AZURE_SPEECH_ENDPOINT=https://your-speech-endpoint.cognitiveservices.azure.com/
+
+# Azure Translator credentials
+AZURE_TRANSLATOR_KEY=your_translator_key_here
+AZURE_TRANSLATOR_ENDPOINT=https://api.cognitive.microsofttranslator.com/
+AZURE_TRANSLATOR_REGION=your_translator_region_here
+
+# Server configuration
+HOST=127.0.0.1
+PORT=8000
+DEBUG=True
